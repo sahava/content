@@ -14,41 +14,23 @@ Create a new Custom Event Trigger, and set Event Name to **scrollEvent**.
 
 Create the following Data Layer Variables:
 
-{{scrollCategory}}
+{{scrollCategory}} - Variable Name: scrollCategory
 
-Variable Name: scrollCategory
+{{scrollAction}} - Variable Name: scrollAction
 
-{{scrollAction}}
+{{scrollLabel}} - Variable Name: scrollLabel
 
-Variable Name: scrollAction
+{{scrollValue}} - Variable Name: scrollValue
 
-{{scrollLabel}}
+{{scrollNonInteraction}} - Variable Name: scrollNonInteraction
 
-Variable Name: scrollLabel
+{{scrollMetric1}} - Variable Name: scrollMetric1
 
-{{scrollValue}}
+{{scrollMetric2}} - Variable Name: scrollMetric2
 
-Variable Name: scrollValue
+{{scrollMetric3}} - Variable Name: scrollMetric3
 
-{{scrollNonInteraction}}
-
-Variable Name: scrollNonInteraction
-
-{{scrollMetric1}}
-
-Variable Name: scrollMetric1
-
-{{scrollMetric2}}
-
-Variable Name: scrollMetric2
-
-{{scrollMetric3}}
-
-Variable Name: scrollMetric3
-
-{{scrollDimension}}
-
-Variable Name: scrollDimension
+{{scrollDimension}} - Variable Name: scrollDimension
 
 
 **TAG**
@@ -69,13 +51,13 @@ Non-Interaction Hit - {{scrollNonInteraction}}
 
 Custom Dimensions
 
-<set dimension index> - {{scrollDimension}}
+...set dimension index... - {{scrollDimension}}
 
 
 Custom Metrics
 
-<set metric index> - {{scrollMetric1}}
+...set metric index... - {{scrollMetric1}}
 
-<set metric index> - {{scrollMetric2}}
+...set metric index... - {{scrollMetric2}}
 
-<set metric index> - {{scrollMetric3}}
+...set metric index... - {{scrollMetric3}}
