@@ -1,4 +1,6 @@
 # Advanced Content Tracking by Justin Cutroni
+http://cutroni.com/blog/2014/02/12/advanced-content-tracking-with-universal-analytics/
+
 Adapted for Google Tag Manager by Simo Ahava
 
 For this code to work, you will need the following:
