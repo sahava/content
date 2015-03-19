@@ -1,6 +1,10 @@
+<script>
 jQuery(function($) {
     // Debug flag
     var debugMode = true;
+    
+    // Change this selector to match the main content element of your site, e.g. '#content' or '.entry-content'
+    var contentElement = '.entry-content';
 
     // Default time delay before checking location
     var callBackTime = 100;
@@ -70,7 +74,7 @@ jQuery(function($) {
         }
 
         // If user has hit the bottom of the content send an event
-        if (bottom >= $('.entry-content').scrollTop() + $('.entry-content').innerHeight() && !endContent) {
+        if (bottom >= $(contentElement).scrollTop() + $(contentElement).innerHeight() && !endContent) {
             currentTime = new Date();
             contentScrollEnd = currentTime.getTime();
             timeToContentEnd = Math.round((contentScrollEnd - scrollStart) / 1000);
