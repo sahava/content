@@ -1,4 +1,4 @@
-# Advanced Content Tracking by Justin Cutroni
+# Advanced Content Tracking by Justin Cutroni for GTM
 http://cutroni.com/blog/2014/02/12/advanced-content-tracking-with-universal-analytics/
 
 Adapted for Google Tag Manager by Simo Ahava
@@ -66,4 +66,4 @@ Custom Metrics
 
 **CUSTOM HTML TAG**
 
-Create a new Custom HTML Tag, set it to fire on the All Pages trigger, and copy-paste the code in *script.js* into it.
+Create a new Custom HTML Tag, set it to fire on the pages where you want to track scroll depth, and copy-paste the code in *script.js* into it. Remember to change the ```contentElement``` variable with a selector that matches the main content area on your site.
