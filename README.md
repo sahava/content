@@ -35,7 +35,7 @@ Create the following Data Layer Variables:
 {{scrollDimension}} - Variable Name: scrollDimension
 
 
-**TAG**
+**EVENT TAG**
 
 Create new Universal Analytics Tag of type Event, and set the following fields:
 
@@ -63,3 +63,7 @@ Custom Metrics
 ...set metric index... - {{scrollMetric2}}
 
 ...set metric index... - {{scrollMetric3}}
+
+**CUSTOM HTML TAG**
+
+Create a new Custom HTML Tag, set it to fire on the All Pages trigger, and copy-paste the code in *script.js* into it.
